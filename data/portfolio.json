@@ -1,0 +1,192 @@
+{
+  "_comment": "=== PORTFOLIO DATA FILE ===",
+  "_instructions": "Edit this file to update your portfolio content. No code changes needed!",
+  "about": {
+    "_comment": "Personal information displayed in Hero and About sections",
+    "name": "Ezz Eldin Emad",
+    "title": "Data Science Student | Aspiring Data Scientist",
+    "bio": "I am a third-year student in the Faculty of Computing and Data Science at Alexandria University, passionate about data science, machine learning, and turning data into actionable insights. I am constantly learning and exploring new technologies to solve real-world problems.",
+    "location": "Alexandria, Egypt",
+    "email": "ezz.eldin.emad@outlook.com",
+    "github": "https://github.com/ezzeldinemad",
+    "linkedin": "https://linkedin.com/in/ezzeldinemad",
+    "resume": "assets/resume.pdf",
+    "profileImage": "assets/images/profile.jpg"
+  },
+  "skills": {
+    "_comment": "Skills grouped by category. Each skill has: name, icon (optional URL from devicons CDN). No proficiency percentages — badges only.",
+    "Programming Languages": [
+      {
+        "name": "Python",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "name": "R",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
+      },
+      {
+        "name": "SQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      }
+    ],
+    "Data Science & ML": [
+      {
+        "name": "Machine Learning",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+      },
+      {
+        "name": "Data Visualization",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg"
+      },
+      {
+        "name": "Statistical Analysis",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"
+      }
+    ],
+    "Tools & Frameworks": [
+      {
+        "name": "Pandas",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+      },
+      {
+        "name": "NumPy",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+      },
+      {
+        "name": "Scikit-learn",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+      },
+      {
+        "name": "Matplotlib",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+      },
+      {
+        "name": "Jupyter",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+      }
+    ],
+    "Development Tools": [
+      {
+        "name": "Git",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      },
+      {
+        "name": "Linux",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+      },
+      {
+        "name": "VS Code",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "_comment": "Each project: title, description, technologies array, github_url, demo_url (optional), image (optional path to assets/images/)",
+      "title": "Customer Segmentation Analysis",
+      "description": "Applied unsupervised learning techniques to segment customers based on purchasing behavior. Used K-means clustering and PCA for dimensionality reduction.",
+      "technologies": [
+        "Python",
+        "Scikit-learn",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "github_url": "https://github.com/ezzeldinemad/customer-segmentation",
+      "demo_url": null,
+      "image": "assets/images/project1.jpg"
+    },
+    {
+      "title": "Sales Forecasting Dashboard",
+      "description": "Built a time series forecasting model to predict sales trends. Created an interactive dashboard using Python and data visualization libraries.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Prophet",
+        "Jupyter"
+      ],
+      "github_url": "https://github.com/ezzeldinemad/sales-forecasting",
+      "demo_url": null,
+      "image": "assets/images/project2.jpg"
+    },
+    {
+      "title": "Data Cleaning Pipeline",
+      "description": "Developed an automated data cleaning pipeline for processing large datasets. Includes handling missing values, outliers, and data normalization.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SQL"
+      ],
+      "github_url": "https://github.com/ezzeldinemad/data-cleaning-pipeline",
+      "demo_url": null,
+      "image": "assets/images/project3.jpg"
+    },
+    {
+      "title": "Sentiment Analysis Project",
+      "description": "Implemented a sentiment analysis model using natural language processing techniques to classify text as positive, negative, or neutral.",
+      "technologies": [
+        "Python",
+        "NLTK",
+        "Scikit-learn",
+        "Pandas"
+      ],
+      "github_url": "https://github.com/ezzeldinemad/sentiment-analysis",
+      "demo_url": null,
+      "image": null
+    }
+  ],
+  "education": [
+    {
+      "_comment": "Education entries: degree, institution, location, start_date, end_date (null = present), description, gpa (optional)",
+      "degree": "Bachelor of Science in Computing and Data Science",
+      "institution": "Alexandria University",
+      "location": "Alexandria, Egypt",
+      "start_date": "2021",
+      "end_date": null,
+      "description": "Currently in third year. Focus areas include data science, machine learning, statistics, and software engineering.",
+      "gpa": null
+    }
+  ],
+  "experience": [
+    {
+      "_comment": "Work experience: title, company, location, start_date (YYYY-MM), end_date (null = present), description (array of bullet points), technologies",
+      "title": "Data Science Intern",
+      "company": "Tech Company (Example)",
+      "location": "Remote",
+      "start_date": "2023-06",
+      "end_date": "2023-08",
+      "description": [
+        "Assisted in data collection and preprocessing for machine learning projects",
+        "Created data visualizations and reports for stakeholders",
+        "Participated in model development and evaluation processes"
+      ],
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-learn"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "_comment": "Certifications: name, issuer, issue_date, expiry_date (optional), credential_id (optional), credential_url (optional)",
+      "name": "Introduction to Data Science",
+      "issuer": "Coursera",
+      "issue_date": "2023",
+      "expiry_date": null,
+      "credential_id": null,
+      "credential_url": null
+    },
+    {
+      "name": "Machine Learning Fundamentals",
+      "issuer": "edX",
+      "issue_date": "2023",
+      "expiry_date": null,
+      "credential_id": null,
+      "credential_url": null
+    }
+  ]
+}

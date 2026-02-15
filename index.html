@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Ezz Eldin Emad — Data Science Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Ezz Eldin Emad — Data Science Student at Alexandria University. Machine learning, data visualization, and Python projects.">
+  <meta name="keywords"
+    content="data science, machine learning, portfolio, Python, Ezz Eldin Emad, Alexandria University">
+  <meta name="author" content="Ezz Eldin Emad">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ezzeldinemad.github.io/">
+  <meta property="og:title" content="Ezz Eldin Emad — Data Science Portfolio">
+  <meta property="og:description"
+    content="Data Science Student at Alexandria University. Machine learning, data visualization, and Python projects.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ezz Eldin Emad — Data Science Portfolio">
+  <meta name="twitter:description"
+    content="Data Science Student at Alexandria University. Machine learning, data visualization, and Python projects.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <!-- Favicon -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+  <!-- Theme (loads FIRST to prevent flash of wrong theme) -->
+  <script src="js/theme.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ezz Eldin Emad",
+    "url": "https://ezzeldinemad.github.io/",
+    "jobTitle": "Data Science Student",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Alexandria University"
+    },
+    "knowsAbout": ["Data Science", "Machine Learning", "Python", "Data Visualization"],
+    "sameAs": [
+      "https://github.com/ezzeldinemad",
+      "https://linkedin.com/in/ezzeldinemad"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip to main content (accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================
+       Navigation
+       ============================================ -->
+  <header>
+    <nav id="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo" aria-label="Go to top">Ezz Eldin Emad</a>
+
+        <!-- Desktop Navigation -->
+        <ul class="nav-links" id="nav-links">
+          <!-- Populated dynamically by main.js based on sections-config.json -->
+        </ul>
+
+        <!-- Right side: theme toggle + mobile hamburger -->
+        <div class="nav-right">
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+            <!-- Icon set by theme.js -->
+          </button>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+            aria-controls="mobile-menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu" role="menu" aria-hidden="true">
+        <div id="mobile-menu" class="mobile-menu" role="menu" aria-hidden="true">
+          <!-- Populated dynamically by main.js -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================================
+       Main Content
+       ============================================ -->
+  <main id="main-content">
+
+    <!-- Dynamic Content Area -->
+    <div id="dynamic-sections"></div>
+
+  </main>
+
+  <!-- ============================================
+       Section Templates
+       ============================================ -->
+
+  <template id="hero-template">
+    <section id="hero" class="hero section-dynamic" aria-label="Introduction">
+      <div class="hero-content">
+        <div class="hero-profile">
+          <img id="hero-profile-img" src="assets/images/profile.jpg" alt="Ezz Eldin Emad" class="hero-avatar"
+            width="160" height="160" loading="eager">
+        </div>
+        <h1 class="hero-name" id="hero-name">Ezz Eldin Emad</h1>
+        <p class="hero-title" id="hero-title">Data Science Student | Aspiring Data Scientist</p>
+        <p class="hero-bio" id="hero-bio">Passionate about data science, machine learning, and turning data into
+          actionable insights.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+          <a href="assets/resume.pdf" class="btn btn-outline" download aria-label="Download resume PDF">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+            </svg>
+            Resume
+          </a>
+        </div>
+        <div class="hero-social" id="hero-social">
+          <!-- Social links populated by JS -->
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="about-template">
+    <section id="about" class="section section-dynamic" aria-label="About me">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-accent"></div>
+        </div>
+        <p class="about-bio" id="about-bio">Loading...</p>
+        <div class="about-details" id="about-details">
+          <!-- Details populated by JS -->
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="skills-template">
+    <section id="skills" class="section section-dynamic" aria-label="Technical skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-accent"></div>
+        </div>
+        <div id="skills-container">
+          <!-- Skills populated by JS -->
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="projects-template">
+    <section id="projects" class="section section-dynamic" aria-label="Projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Selected Projects</h2>
+          <div class="section-accent"></div>
+        </div>
+        <div id="projects-container" class="projects-grid">
+          <!-- Projects populated by JS -->
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="experience-template">
+    <section id="experience" class="section section-dynamic" aria-label="Work experience">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="section-accent"></div>
+        </div>
+        <div id="experience-container" class="timeline">
+          <!-- Experience populated by JS -->
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="education-template">
+    <section id="education" class="section section-dynamic" aria-label="Education">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Education</h2>
+          <div class="section-accent"></div>
+        </div>
+        <div id="education-container" class="timeline">
+          <!-- Education populated by JS -->
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="certifications-template">
+    <section id="certifications" class="section section-dynamic" aria-label="Certifications">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-accent"></div>
+        </div>
+        <div id="certifications-container" class="cards-grid">
+          <!-- Certifications populated by JS -->
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="contact-template">
+    <section id="contact" class="section section-dynamic" aria-label="Contact form">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-accent"></div>
+          <p class="section-subtitle">Let's collaborate on your next data project.</p>
+        </div>
+
+        <div class="contact-card">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" id="name" name="name" required class="form-input" placeholder="Ezz Eldin"
+                  autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" required class="form-input" placeholder="hello@example.com"
+                  autocomplete="email">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" required class="form-input" placeholder="Project Inquiry">
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" rows="5" required class="form-input form-textarea"
+                placeholder="Tell me about your project..."></textarea>
+            </div>
+
+            <!-- Honeypot (spam prevention) -->
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true">
+
+            <button type="submit" id="submit-btn" class="btn btn-primary btn-full">
+              <span id="submit-text">Send Message</span>
+              <span id="submit-loading" class="hidden" aria-live="polite">Sending...</span>
+            </button>
+
+            <div id="form-message" class="form-message hidden" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  </main>
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-text">&copy; <span id="current-year"></span> Ezz Eldin Emad. Crafted with Precision.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript (deferred for performance; theme.js already loaded in head) -->
+  <script src="js/utils.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/contact.js" defer></script>
+</body>
+
+</html>

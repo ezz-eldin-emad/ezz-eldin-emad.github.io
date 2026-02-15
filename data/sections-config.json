@@ -1,0 +1,71 @@
+{
+    "_comment": "Portfolio section order — Following CV best practices",
+    "_instructions": "Change 'order' number to reorder sections. Set 'enabled': false to hide.",
+    "_note": "This is YOUR preferred order. See sections-config.recommended.json for alternative.",
+    "sections": [
+        {
+            "id": "hero",
+            "title": "Home",
+            "enabled": true,
+            "showInNav": false,
+            "order": 1,
+            "description": "Landing section — first impression"
+        },
+        {
+            "id": "about",
+            "title": "About",
+            "enabled": true,
+            "showInNav": true,
+            "order": 2,
+            "description": "Summary — who you are (keep brief)"
+        },
+        {
+            "id": "education",
+            "title": "Education",
+            "enabled": true,
+            "showInNav": true,
+            "order": 3,
+            "description": "Academic background — degrees and university"
+        },
+        {
+            "id": "experience",
+            "title": "Experience",
+            "enabled": true,
+            "showInNav": true,
+            "order": 4,
+            "description": "Work history and internships"
+        },
+        {
+            "id": "projects",
+            "title": "Projects",
+            "enabled": true,
+            "showInNav": true,
+            "order": 5,
+            "description": "Portfolio projects — showcase your work"
+        },
+        {
+            "id": "skills",
+            "title": "Skills",
+            "enabled": true,
+            "showInNav": true,
+            "order": 6,
+            "description": "Technical skills — clean badges, no percentages"
+        },
+        {
+            "id": "certifications",
+            "title": "Certifications",
+            "enabled": true,
+            "showInNav": true,
+            "order": 7,
+            "description": "Certificates and courses"
+        },
+        {
+            "id": "contact",
+            "title": "Contact",
+            "enabled": true,
+            "showInNav": true,
+            "order": 8,
+            "description": "Contact form and social links"
+        }
+    ]
+}
