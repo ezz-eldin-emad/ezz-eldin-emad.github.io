@@ -3,47 +3,55 @@
   "_instructions": "Edit this file to update your portfolio content. No code changes needed!",
   "about": {
     "_comment": "Personal information displayed in Hero and About sections",
-    "name": "Ezz Eldin Emad",
-    "title": "Data Science Student | Aspiring Data Scientist",
-    "bio": "I am a third-year student in the Faculty of Computing and Data Science at Alexandria University, passionate about data science, machine learning, and turning data into actionable insights. I am constantly learning and exploring new technologies to solve real-world problems.",
+    "name": "Ezz El-Din Emad",
+    "title": "Data Science Student | Machine Learning Enthusiast",
+    "bio": "Third-year Computing & Data Science student at Alexandria University with hands-on experience in machine learning, data analysis, and IoT systems. Passionate about transforming data into actionable insights and building intelligent solutions.",
     "location": "Alexandria, Egypt",
     "email": "ezz.eldin.emad@outlook.com",
-    "github": "https://github.com/ezzeldinemad",
-    "linkedin": "https://linkedin.com/in/ezzeldinemad",
+    "phone": "+201208094900",
+    "github": "https://github.com/ezz-eldin-emad",
+    "linkedin": "https://linkedin.com/in/ezz-eldin-emad",
+    "portfolio_url": "https://ezz-eldin-emad.github.io",
     "resume": "assets/resume.pdf",
     "profileImage": "assets/images/profile.jpg"
   },
   "skills": {
-    "_comment": "Skills grouped by category. Each skill has: name, icon (optional URL from devicons CDN). No proficiency percentages — badges only.",
-    "Programming Languages": [
+    "_comment": "Skills grouped by category. Each skill has: name, icon (optional URL from devicons CDN).",
+    "Languages & Databases": [
       {
         "name": "Python",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "name": "SQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      },
+      {
+        "name": "Java",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
       },
       {
         "name": "R",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
       },
       {
-        "name": "SQL",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        "name": "JavaScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
       }
     ],
-    "Data Science & ML": [
+    "Data Science & AI": [
       {
-        "name": "Machine Learning",
+        "name": "TensorFlow",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
       },
       {
-        "name": "Data Visualization",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg"
+        "name": "PyTorch",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
       },
       {
-        "name": "Statistical Analysis",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"
-      }
-    ],
-    "Tools & Frameworks": [
+        "name": "Scikit-Learn",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+      },
       {
         "name": "Pandas",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
@@ -53,19 +61,19 @@
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
       },
       {
-        "name": "Scikit-learn",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
-      },
-      {
-        "name": "Matplotlib",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
-      },
-      {
-        "name": "Jupyter",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+        "name": "Power BI",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
       }
     ],
-    "Development Tools": [
+    "Cloud & Tools": [
+      {
+        "name": "AWS",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+      },
+      {
+        "name": "Hadoop",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg"
+      },
       {
         "name": "Git",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
@@ -75,66 +83,120 @@
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
       },
       {
+        "name": "Flask",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+      },
+      {
+        "name": "Streamlit",
+        "icon": "https://streamlit.io/images/brand/streamlit-mark-color.svg"
+      },
+      {
+        "name": "Jupyter",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+      },
+      {
         "name": "VS Code",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+      }
+    ],
+    "IoT & Embedded Systems": [
+      {
+        "name": "ESP32",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg"
+      },
+      {
+        "name": "C++",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+      },
+      {
+        "name": "Flutter",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+      },
+      {
+        "name": "MQTT",
+        "icon": "https://mqtt.org/assets/img/mqtt-logo-transp.svg"
+      }
+    ],
+    "Soft Skills": [
+      {
+        "name": "Problem Solving",
+        "icon": null
+      },
+      {
+        "name": "Team Collaboration",
+        "icon": null
+      },
+      {
+        "name": "Technical Communication",
+        "icon": null
+      },
+      {
+        "name": "Critical Thinking",
+        "icon": null
       }
     ]
   },
   "projects": [
     {
       "_comment": "Each project: title, description, technologies array, github_url, demo_url (optional), image (optional path to assets/images/)",
-      "title": "Customer Segmentation Analysis",
-      "description": "Applied unsupervised learning techniques to segment customers based on purchasing behavior. Used K-means clustering and PCA for dimensionality reduction.",
+      "title": "HR Employee Attrition Analysis Dashboard",
+      "description": "Analyzed 1,470 employees to identify high-risk groups and retention factors. Discovered that Sales Representatives had 39.8% attrition and overtime workers 30.5%. Used DAX correlation analysis to uncover 5 key retention factors contributing to 16.12% overall attrition rate.",
       "technologies": [
-        "Python",
-        "Scikit-learn",
-        "Pandas",
-        "Matplotlib",
-        "Seaborn"
+        "Power BI",
+        "DAX",
+        "Data Analysis"
       ],
-      "github_url": "https://github.com/ezzeldinemad/customer-segmentation",
+      "github_url": "https://github.com/ezz-eldin-emad/hr-attrition-dashboard",
       "demo_url": null,
-      "image": "assets/images/project1.jpg"
+      "image": "assets/images/project-hr.jpg",
+      "date": "2025-11"
     },
     {
-      "title": "Sales Forecasting Dashboard",
-      "description": "Built a time series forecasting model to predict sales trends. Created an interactive dashboard using Python and data visualization libraries.",
+      "title": "Fashion MNIST Classifier",
+      "description": "Built a deep learning ML pipeline achieving 89.37% test accuracy using TensorFlow. Implemented hyperparameter tuning with Optuna (3 layers, 86 neurons) and deployed a real-time classification dashboard using Streamlit.",
       "technologies": [
         "Python",
-        "Pandas",
-        "Matplotlib",
-        "Prophet",
+        "TensorFlow",
+        "Streamlit",
+        "Optuna",
         "Jupyter"
       ],
-      "github_url": "https://github.com/ezzeldinemad/sales-forecasting",
+      "github_url": "https://github.com/ezz-eldin-emad/fashion-mnist",
       "demo_url": null,
-      "image": "assets/images/project2.jpg"
+      "image": "assets/images/project-fashion.jpg",
+      "date": "2025-06"
     },
     {
-      "title": "Data Cleaning Pipeline",
-      "description": "Developed an automated data cleaning pipeline for processing large datasets. Includes handling missing values, outliers, and data normalization.",
+      "title": "Job Market Analysis",
+      "description": "Processed over 8,000 job listings using automated SQL pipeline to uncover seasonal hiring trends and high-growth sectors in Egypt and Saudi Arabia. Created 12 interactive visualizations with Plotly and Seaborn to present market dynamics and employer insights.",
       "technologies": [
         "Python",
-        "Pandas",
-        "NumPy",
-        "SQL"
+        "SQL Server",
+        "Streamlit",
+        "Plotly",
+        "Seaborn"
       ],
-      "github_url": "https://github.com/ezzeldinemad/data-cleaning-pipeline",
+      "github_url": "https://github.com/ezz-eldin-emad/job-market-analysis",
       "demo_url": null,
-      "image": "assets/images/project3.jpg"
+      "image": "assets/images/project-jobs.jpg",
+      "date": "2025-05"
     },
     {
-      "title": "Sentiment Analysis Project",
-      "description": "Implemented a sentiment analysis model using natural language processing techniques to classify text as positive, negative, or neutral.",
+      "title": "IoT Smart Pet Care System",
+      "description": "Led a team to develop an automated pet feeding system using ESP32 with IR sensors for food detection and water level monitoring. Implemented real-time MQTT communication with Supabase and designed a Flutter mobile interface for remote control and monitoring.",
       "technologies": [
-        "Python",
-        "NLTK",
-        "Scikit-learn",
-        "Pandas"
+        "ESP32",
+        "C++",
+        "MQTT",
+        "PlatformIO",
+        "Flutter",
+        "Supabase",
+        "HiveMQ"
       ],
-      "github_url": "https://github.com/ezzeldinemad/sentiment-analysis",
+      "github_url": "https://github.com/ezz-eldin-emad/iot-pet-care",
       "demo_url": null,
-      "image": null
+      "image": "assets/images/project-iot.jpg",
+      "date": "2025-08"
     }
   ],
   "education": [
@@ -144,46 +206,49 @@
       "institution": "Alexandria University",
       "location": "Alexandria, Egypt",
       "start_date": "2021",
-      "end_date": null,
-      "description": "Currently in third year. Focus areas include data science, machine learning, statistics, and software engineering.",
+      "end_date": "2027",
+      "description": "Currently in third year. Relevant Coursework: Data Structures & Algorithms, Machine Learning, Database Systems, Distributed Processing.",
       "gpa": null
     }
   ],
   "experience": [
     {
-      "_comment": "Work experience: title, company, location, start_date (YYYY-MM), end_date (null = present), description (array of bullet points), technologies",
-      "title": "Data Science Intern",
-      "company": "Tech Company (Example)",
-      "location": "Remote",
-      "start_date": "2023-06",
-      "end_date": "2023-08",
+      "_comment": "Work experience and training: title, company, location, start_date (YYYY-MM), end_date (null = present), description (array of bullet points), technologies",
+      "title": "IoT Software & Hardware Engineering - Field Training",
+      "company": "Alexandria University, Faculty of Computing and Data Science",
+      "location": "Alexandria, Egypt",
+      "start_date": "2025-07",
+      "end_date": "2025-08",
       "description": [
-        "Assisted in data collection and preprocessing for machine learning projects",
-        "Created data visualizations and reports for stakeholders",
-        "Participated in model development and evaluation processes"
+        "Completed intensive 7-week program covering embedded systems, cloud connectivity, and IoT architecture",
+        "Led team capstone project developing IoT Smart Pet Care System with ESP32 and real-time cloud integration",
+        "Implemented MQTT protocol for hardware-cloud communication and designed Flutter mobile interface",
+        "Integrated multiple sensors (IR, water level) with servo motors for automated pet feeding control"
       ],
       "technologies": [
-        "Python",
-        "Pandas",
-        "Matplotlib",
-        "Scikit-learn"
+        "ESP32",
+        "C++",
+        "MQTT",
+        "PlatformIO",
+        "Flutter",
+        "Supabase"
       ]
     }
   ],
   "certifications": [
     {
       "_comment": "Certifications: name, issuer, issue_date, expiry_date (optional), credential_id (optional), credential_url (optional)",
-      "name": "Introduction to Data Science",
-      "issuer": "Coursera",
-      "issue_date": "2023",
+      "name": "Machine Learning Specialization",
+      "issuer": "Stanford University & Coursera",
+      "issue_date": "2024",
       "expiry_date": null,
       "credential_id": null,
       "credential_url": null
     },
     {
-      "name": "Machine Learning Fundamentals",
-      "issuer": "edX",
-      "issue_date": "2023",
+      "name": "AWS Academy Cloud Foundations",
+      "issuer": "Amazon Web Services (AWS)",
+      "issue_date": "2025",
       "expiry_date": null,
       "credential_id": null,
       "credential_url": null

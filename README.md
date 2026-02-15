@@ -1,286 +1,210 @@
-# Ezz Eldin Emad — Data Science Portfolio
+<div align="center">
+  
+# 👋 Hi, I'm Ezz El-Din Emad
 
-A modern, responsive single-page portfolio built with **pure HTML5, CSS3, and vanilla JavaScript**. No frameworks, no build tools — ready to deploy on GitHub Pages.
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9FFF&center=true&vCenter=true&width=600&lines=Data+Science+Student;Machine+Learning+Enthusiast;IoT+Developer;Turning+Data+Into+Insights" alt="Typing SVG" />
 
-![Static Site](https://img.shields.io/badge/type-static%20site-blue)
-![No Dependencies](https://img.shields.io/badge/dependencies-zero-green)
-![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-black)
+[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://ezz-eldin-emad.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ezz-eldin-emad)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ezz-eldin-emad)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ezz.eldin.emad@outlook.com)
 
-## Features
+![Profile Views](https://komarev.com/ghpvc/?username=ezz-eldin-emad&color=2E9FFF&style=for-the-badge)
 
-- 🌙 Dark mode with system font stack (zero external fonts)
-- 📊 Animated CSS progress bars for skills visualization
-- 📱 Fully responsive (mobile, tablet, desktop)
-- ✉️ Contact form via Formspree (free)
-- 🔒 Honeypot spam protection
-- ♿ WCAG 2.1 AA accessible (ARIA labels, keyboard nav, skip-to-content)
-- 🔍 SEO optimized (Open Graph, Twitter Cards, JSON-LD)
-- ⚡ Fast — no CDN dependencies, deferred JS, lazy-loaded images
-
-## Quick Start
-
-### Local Development
-
-```bash
-# From the project root, serve with any static server:
-python3 -m http.server 8080
-
-# Then open http://localhost:8080
-```
-
-> **Note:** You must use a local server (not `file://`) because `fetch()` is used to load `data/portfolio.json`.
-
-## Project Structure
-
-```
-my-portfolio/
-├── index.html              # Single-page HTML (semantic, SEO-optimized)
-├── css/
-│   ├── styles.css          # Complete design system
-│   └── styles.min.css      # Minified version
-├── js/
-│   ├── utils.js            # Validation & helper functions
-│   ├── main.js             # Section rendering, navigation, animations
-│   └── contact.js          # Formspree contact form handler
-├── data/
-│   └── portfolio.json      # ← All your content lives here
-├── assets/
-│   ├── images/
-│   │   ├── profile.jpg     # Your profile photo (300×300px)
-│   │   ├── project1.jpg    # Project screenshot (600×400px)
-│   │   ├── project2.jpg
-│   │   └── project3.jpg
-│   ├── resume.pdf          # Your resume/CV
-│   ├── favicon.ico         # Browser tab icon (32×32px)
-│   └── apple-touch-icon.png # iOS bookmark icon (180×180px)
-├── README.md
-└── .gitignore
-```
-
-## Content Updates
-
-**All content is in `data/portfolio.json`.** Edit this file to update your portfolio — no code changes needed.
-
-### Update Personal Info
-
-```json
-{
-  "about": {
-    "name": "Your Name",
-    "title": "Your Title",
-    "bio": "Your bio paragraph...",
-    "email": "your@email.com",
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourusername"
-  }
-}
-```
-
-### Add a New Project
-
-Add an object to the `"projects"` array:
-
-```json
-{
-  "title": "My New Project",
-  "description": "What this project does...",
-  "technologies": ["Python", "Pandas", "Matplotlib"],
-  "github_url": "https://github.com/you/project",
-  "demo_url": null,
-  "image": "assets/images/project4.jpg"
-}
-```
-
-Then add the screenshot image to `assets/images/`.
-
-### Update Skills
-
-Edit the `"skills"` object. Each category contains an array of skills:
-
-```json
-{
-  "skills": {
-    "Category Name": [
-      {
-        "name": "Skill Name",
-        "proficiency": 80,
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-      }
-    ]
-  }
-}
-```
-
-- `proficiency`: 0–100 (controls progress bar width)
-- `icon`: URL to a skill icon (optional — from [devicons](https://devicon.dev/))
-
-### Add Education / Experience / Certifications
-
-Follow the existing patterns in `portfolio.json`. Each section has inline `_comment` fields explaining the format.
-
-## Image Requirements
-
-| Image | Size | Format | Notes |
-|-------|------|--------|-------|
-| `profile.jpg` | 300×300px | JPG/PNG | Square, professional headshot |
-| `project*.jpg` | 600×400px | JPG/PNG | Project screenshot or preview |
-| `favicon.ico` | 32×32px | ICO/SVG | Browser tab icon |
-| `apple-touch-icon.png` | 180×180px | PNG | iOS/Android bookmark icon |
-| `resume.pdf` | — | PDF | Your CV/resume for download |
-
-> **Tip:** Compress images with [Squoosh](https://squoosh.app/) or [TinyPNG](https://tinypng.com/) for faster load times.
-
-## Contact Form Setup
-
-### Option 1: Formspree (Recommended)
-
-1. Create a free account at [formspree.io](https://formspree.io)
-2. Create a new form (you'll get an endpoint like `https://formspree.io/f/xyzabcde`)
-3. Open `js/contact.js`
-4. Replace `YOUR_FORM_ID` with your form ID:
-
-```javascript
-var FORMSPREE_ID = 'xyzabcde'; // ← Your ID here
-```
-
-That's it! Free tier: 50 submissions/month.
-
-### Option 2: EmailJS (Alternative)
-
-1. Sign up at [emailjs.com](https://www.emailjs.com/)
-2. Create an email service + template
-3. Replace the Formspree `fetch()` in `js/contact.js` with:
-
-```javascript
-// Add EmailJS SDK to index.html:
-// <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
-  from_name: formData.name,
-  from_email: formData.email,
-  subject: formData.subject,
-  message: formData.message
-}).then(function() {
-  showFormStatus('Message sent!', 'success');
-}).catch(function(err) {
-  showFormStatus('Failed to send.', 'error');
-});
-```
-
-## Deploy to GitHub Pages
-
-### Step-by-step
-
-1. **Create a GitHub repository** named `yourusername.github.io` (for a user site) or any name (for a project site)
-
-2. **Push your code:**
-
-```bash
-cd my-portfolio
-git init
-git add .
-git commit -m "Initial portfolio site"
-git branch -M main
-git remote add origin https://github.com/yourusername/yourusername.github.io.git
-git push -u origin main
-```
-
-1. **Enable GitHub Pages:**
-   - Go to: Repository → Settings → Pages
-   - Source: **Deploy from a branch**
-   - Branch: **main**, folder: **/ (root)**
-   - Click **Save**
-
-2. Your site will be live at `https://yourusername.github.io` within a few minutes!
-
-### Custom Domain (Optional)
-
-1. In repository Settings → Pages, enter your custom domain
-2. Add a `CNAME` file to the project root containing your domain
-3. Configure DNS with your domain registrar:
-   - `A` record: `185.199.108.153` (GitHub IPs)
-   - `CNAME` record: `yourusername.github.io`
-
-## Browser Support
-
-- Chrome 80+
-- Firefox 78+
-- Safari 13.1+
-- Edge 80+
-- Mobile Safari / Chrome (iOS/Android)
-
-## Accessibility
-
-- Skip-to-content link for keyboard users
-- ARIA labels on all interactive elements
-- Focus indicators (`:focus-visible`)
-- `prefers-reduced-motion` support
-- Screen reader friendly semantic HTML
-- High contrast mode support
-
-## 📋 How to Reorder Sections
-
-Your portfolio sections are controlled by `data/sections-config.json`.
-
-### Current Order (Your Preferred — CV-Based)
-
-1. **Hero** — Landing page
-2. **About** — Brief summary
-3. **Education** — Academic background (HR recommended: first for students)
-4. **Experience** — Work history
-5. **Projects** — Portfolio work
-6. **Skills** — Technical abilities
-7. **Certifications** — Courses & certificates
-8. **Contact** — Get in touch
-
-### To Change Section Order
-
-1. Open `data/sections-config.json`.
-2. Find the section you want to move.
-3. Change the `"order"` number.
-4. Save and refresh the page.
-
-**Example:** Move Projects to position 3 (before Education):
-
-```json
-// Change from:
-{"id": "education", "order": 3}
-{"id": "experience", "order": 4}
-{"id": "projects", "order": 5}
-
-// To:
-{"id": "projects", "order": 3}
-{"id": "education", "order": 4}
-{"id": "experience", "order": 5}
-```
-
-### Hide/Show Sections
-
-- **Hide completely:** Set `"enabled": false`
-- **Hide from menu only:** Set `"showInNav": false`
-
-### Alternative Order Available
-
-There is an alternative ordering in `data/sections-config.recommended.json` that prioritizes Projects over Education (more engaging for web browsing).
-
-- This file is for **local reference only** (not tracked in Git).
-- To use it, copy its content into `data/sections-config.json`.
+</div>
 
 ---
 
-## 🎨 Favicon
+## 🚀 About Me
 
-The site uses a custom "Ez" monogram favicon.
+I'm a **third-year Computing & Data Science student** at Alexandria University, passionate about transforming data into actionable insights. With hands-on experience in **Machine Learning, Data Analysis, and IoT Development**, I love building intelligent solutions that solve real-world problems.
 
-- Source: `assets/favicon.svg`
-- Generated files: `favicon.ico`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`
+Currently focusing on **Machine Learning & Deep Learning, Data Visualization, IoT Systems, and Cloud Computing (AWS)**. I'm always eager to learn new technologies, explore cutting-edge research, and contribute to impactful projects.
 
-**To update the favicon:**
+**🌍 Location:** Alexandria, Egypt  
+**🎓 Education:** Bachelor's in Computing & Data Science (Expected 2027)  
+**💬 Languages:** Arabic (Native), English (Intermediate)  
+**🔭 Interests:** MLOps, Big Data, Computer Vision, Problem Solving
 
-1. Modify `assets/favicon.svg`.
-2. Use a tool like [RealFaviconGenerator.net](https://realfavicongenerator.net) to generate the new files.
-3. Replace the files in the `assets/` folder.
+---
 
-## License
+## 🛠️ Tech Stack
 
-MIT License
+### 💻 Languages & Databases
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+### 🤖 Data Science & AI
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+### 📊 Data Visualization
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+### ☁️ Cloud & Tools
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+### 🔧 IoT & Embedded Systems
+
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
+
+### 🧰 Development Tools
+
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4eiIvPjwvc3ZnPg==&logoColor=white)
+
+---
+
+## 🎯 Featured Projects
+
+<div align="center">
+
+### 📈 [HR Employee Attrition Analysis Dashboard](https://github.com/DataMentes/hr-employee-attrition-analysis)
+
+[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://github.com/DataMentes/hr-employee-attrition-analysis)
+[![DAX](https://img.shields.io/badge/DAX-orange?style=flat-square)](https://github.com/DataMentes/hr-employee-attrition-analysis)
+
+> 🔍 Analyzed 1,470 employees to identify high-risk groups and retention factors  
+> 📊 Discovered Sales Reps had 39.8% attrition, overtime workers 30.5%  
+> 🎯 Uncovered 5 key retention factors contributing to 16.12% attrition rate
+
+---
+
+### 👔 [Fashion MNIST Classifier](https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense)
+
+[![Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=flat-square)](https://fashion-mnist-classifier-dense.streamlit.app/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense)
+
+> 🤖 Built ML pipeline achieving **89.37% test accuracy**  
+> ⚙️ Hyperparameter tuning with Optuna (3 layers, 86 neurons)  
+> 🌐 Real-time classification dashboard with Streamlit
+
+---
+
+### 💼 [Job Market Insights Analysis](https://github.com/DataMentes/Job-Market-Insights-analysis)
+
+[![Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=flat-square)](https://job-market-insights-analysis.streamlit.app/)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://github.com/DataMentes/Job-Market-Insights-analysis)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/DataMentes/Job-Market-Insights-analysis)
+
+> 📊 Processed **8,000+ job listings** with automated SQL pipeline  
+> 📈 Uncovered seasonal hiring trends in Egypt & Saudi Arabia  
+> 🎨 Created 12 interactive visualizations with Plotly & Seaborn
+
+---
+
+### 🐾 [IoT Smart Pet Care System](https://github.com/DataMentes/Smart-Pet-Care-System)
+
+[![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white)](https://github.com/DataMentes/Smart-Pet-Care-System)
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://github.com/DataMentes/Smart-Pet-Care-System)
+[![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipse-mosquitto&logoColor=white)](https://github.com/DataMentes/Smart-Pet-Care-System)
+
+> 🎓 **Team Lead** - IoT Field Training Capstone Project  
+> 🔧 Automated pet feeding with ESP32 + IR/Water Level sensors  
+> 📱 Real-time MQTT communication with Flutter mobile interface
+
+</div>
+
+---
+
+## 🎓 Education
+
+**🏛️ Alexandria University**  
+📚 Bachelor's in Computing & Data Science | 🗓️ 2021 - 2027 (3rd Year)
+
+**Relevant Coursework:**
+
+- Data Structures & Algorithms
+- Machine Learning
+- Database Systems
+- Distributed Processing
+
+---
+
+## 💼 Experience & Training
+
+### 🔌 IoT Software & Hardware Engineering - Field Training
+
+**📍 Alexandria University** | 🗓️ July 2025 - August 2025
+
+✅ Completed intensive 7-week program on embedded systems & IoT architecture  
+✅ Led team capstone project with ESP32 and cloud integration  
+✅ Implemented MQTT protocol for real-time hardware-cloud communication  
+✅ Designed Flutter mobile interface for remote monitoring & control
+
+**Tech Stack:** `ESP32` `C++` `MQTT` `PlatformIO` `Flutter` `Supabase`
+
+---
+
+## 🏆 Certifications
+
+<div align="center">
+
+[![Machine Learning](https://img.shields.io/badge/🎓_Machine_Learning_Specialization-Stanford_&_Coursera-blue?style=for-the-badge)](https://www.coursera.org/specializations/machine-learning)
+[![AWS](https://img.shields.io/badge/☁️_AWS_Academy-Cloud_Foundations-232F3E?style=for-the-badge&logo=amazon-aws)](https://aws.amazon.com/training/awsacademy/)
+
+</div>
+
+---
+
+## 💡 What I'm Currently Working On
+
+- 🔭 Building Machine Learning models for real-world applications
+- 🌱 Learning MLOps and deployment strategies
+- 📊 Exploring Advanced Data Visualization techniques
+- 🤝 Contributing to Open Source projects
+- 📝 Writing technical blogs about my learning journey
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-255E63?style=for-the-badge)](https://ezz-eldin-emad.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ezz-eldin-emad)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ezz.eldin.emad@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github)](https://github.com/ezz-eldin-emad)
+
+**📧 Email:** <ezz.eldin.emad@outlook.com>  
+**📱 Phone:** +20 120 809 4900  
+**📍 Location:** Alexandria, Egypt
+
+</div>
+
+---
+
+<div align="center">
+
+**⭐️ If you find my projects interesting, consider giving them a star!**
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+
+**Made with ❤️ and lots of ☕**
+
+*Last Updated: February 2026*
+
+</div>

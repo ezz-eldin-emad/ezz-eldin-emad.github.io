@@ -839,21 +839,10 @@ ol {
    15. Projects Grid
    ============================================ */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: var(--space-xl);
-}
-
-@supports not (display: grid) {
-  .projects-grid {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .projects-grid>* {
-    flex: 1 1 320px;
-    margin: var(--space-sm);
-  }
 }
 
 .project-card {
@@ -866,6 +855,61 @@ ol {
   transition: border-color var(--transition-base),
     transform var(--transition-base),
     box-shadow var(--transition-base);
+
+  /* Default width (Desktop: 3 columns) */
+  width: calc(33.333% - var(--space-xl) * 2 / 3);
+  min-width: 300px;
+}
+
+/* ============================================
+   Count-Based Layout Logic (Desktop)
+   ============================================ */
+
+/* 1 Project: Centered, max-width */
+.projects-grid[data-count="1"] .project-card {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* 2 Projects: 2 columns */
+.projects-grid[data-count="2"] .project-card {
+  width: calc(50% - var(--space-xl) / 2);
+}
+
+/* 4 Projects: 2 columns (2 rows of 2) */
+.projects-grid[data-count="4"] .project-card {
+  width: calc(50% - var(--space-xl) / 2);
+}
+
+/* 7 Projects: 4 columns (Row 1: 4, Row 2: 3 centered) */
+.projects-grid[data-count="7"] .project-card {
+  width: calc(25% - var(--space-xl) * 3 / 4);
+  min-width: 250px;
+  /* Allow smaller cards for 4-col */
+}
+
+/* Responsive: Tablet (2 columns) */
+@media (max-width: 1024px) {
+  .project-card {
+    width: calc(50% - var(--space-xl) / 2) !important;
+  }
+
+  /* Exception for single project */
+  .projects-grid[data-count="1"] .project-card {
+    width: 100% !important;
+    max-width: 600px;
+  }
+}
+
+/* Responsive: Mobile (1 column) */
+@media (max-width: 768px) {
+  .projects-grid {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 100% !important;
+  }
 }
 
 .project-card:hover {

@@ -340,8 +340,12 @@
 
         if (!projects || projects.length === 0) {
             container.innerHTML = '<p style="color:var(--text-muted);text-align:center">No projects available.</p>';
+            container.setAttribute('data-count', 0);
             return;
         }
+
+        // Set count attribute for CSS grid logic
+        container.setAttribute('data-count', projects.length);
 
         projects.forEach(function (project) {
             var card = document.createElement('article');
