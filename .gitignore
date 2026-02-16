@@ -27,3 +27,6 @@ build/
 
 # Reference/alternative configuration (not tracked)
 data/sections-config.recommended.json
+
+# Color Guide (not tracked)
+COLOR_GUIDE.md

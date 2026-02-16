@@ -13,7 +13,7 @@
     'use strict';
 
     // ========== CONFIGURE THIS ==========
-    var FORMSPREE_ID = 'YOUR_FORM_ID'; // Replace with your Formspree form ID
+    var FORMSPREE_ID = 'mgolywld'; // Replace with your Formspree form ID
     var FORMSPREE_URL = 'https://formspree.io/f/' + FORMSPREE_ID;
     // =====================================
 
@@ -169,11 +169,7 @@
         el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initContactForm);
-    } else {
-        initContactForm();
-    }
+    // Expose init function globally so main.js can call it after rendering the template
+    window.initContactForm = initContactForm;
 
 })();

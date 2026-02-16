@@ -4,8 +4,8 @@
   "about": {
     "_comment": "Personal information displayed in Hero and About sections",
     "name": "Ezz El-Din Emad",
-    "title": "Data Science Student | Machine Learning Enthusiast",
-    "bio": "Third-year Computing & Data Science student at Alexandria University with hands-on experience in machine learning, data analysis, and IoT systems. Passionate about transforming data into actionable insights and building intelligent solutions.",
+    "title": "Data Science Student | Aspiring Data Scientist",
+    "bio": "Data Science student at Alexandria University working on Machine Learning and real-world data projects, with hands-on experience in IoT and data analysis.",
     "location": "Alexandria, Egypt",
     "email": "ezz.eldin.emad@outlook.com",
     "phone": "+201208094900",
@@ -146,7 +146,7 @@
         "DAX",
         "Data Analysis"
       ],
-      "github_url": "https://github.com/ezz-eldin-emad/hr-attrition-dashboard",
+      "github_url": "https://github.com/DataMentes/hr-employee-attrition-analysis",
       "demo_url": null,
       "image": "assets/images/project-hr.jpg",
       "date": "2025-11"
@@ -161,25 +161,10 @@
         "Optuna",
         "Jupyter"
       ],
-      "github_url": "https://github.com/ezz-eldin-emad/fashion-mnist",
-      "demo_url": null,
+      "github_url": "https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense",
+      "demo_url": "https://fashion-mnist-classifier-dense.streamlit.app",
       "image": "assets/images/project-fashion.jpg",
       "date": "2025-06"
-    },
-    {
-      "title": "Job Market Analysis",
-      "description": "Processed over 8,000 job listings using automated SQL pipeline to uncover seasonal hiring trends and high-growth sectors in Egypt and Saudi Arabia. Created 12 interactive visualizations with Plotly and Seaborn to present market dynamics and employer insights.",
-      "technologies": [
-        "Python",
-        "SQL Server",
-        "Streamlit",
-        "Plotly",
-        "Seaborn"
-      ],
-      "github_url": "https://github.com/ezz-eldin-emad/job-market-analysis",
-      "demo_url": null,
-      "image": "assets/images/project-jobs.jpg",
-      "date": "2025-05"
     },
     {
       "title": "IoT Smart Pet Care System",
@@ -193,10 +178,25 @@
         "Supabase",
         "HiveMQ"
       ],
-      "github_url": "https://github.com/ezz-eldin-emad/iot-pet-care",
+      "github_url": "https://github.com/DataMentes/Smart-Pet-Care-System",
       "demo_url": null,
       "image": "assets/images/project-iot.jpg",
       "date": "2025-08"
+    },
+    {
+      "title": "Job Market Analysis",
+      "description": "Processed over 8,000 job listings using automated SQL pipeline to uncover seasonal hiring trends and high-growth sectors in Egypt and Saudi Arabia. Created 12 interactive visualizations with Plotly and Seaborn to present market dynamics and employer insights.",
+      "technologies": [
+        "Python",
+        "SQL Server",
+        "Streamlit",
+        "Plotly",
+        "Seaborn"
+      ],
+      "github_url": "https://github.com/DataMentes/Job-Market-Insights-analysis",
+      "demo_url": "https://job-market-insights-analysis.streamlit.app",
+      "image": "assets/images/project-jobs.jpg",
+      "date": "2025-05"
     }
   ],
   "education": [
@@ -242,16 +242,16 @@
       "issuer": "Stanford University & Coursera",
       "issue_date": "2024",
       "expiry_date": null,
-      "credential_id": null,
-      "credential_url": null
+      "credential_id": "4NV6BFXUNVES",
+      "credential_url": "https://coursera.org/verify/specialization/4NV6BFXUNVES"
     },
     {
       "name": "AWS Academy Cloud Foundations",
       "issuer": "Amazon Web Services (AWS)",
       "issue_date": "2025",
       "expiry_date": null,
-      "credential_id": null,
-      "credential_url": null
+      "credential_id": "oeQp46d4",
+      "credential_url": "https://www.credly.com/go/oeQp46d4"
     }
   ]
 }

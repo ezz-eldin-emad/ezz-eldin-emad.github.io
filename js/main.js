@@ -65,9 +65,6 @@
     /* ============================================
        Initialize Application
        ============================================ */
-    /* ============================================
-       Initialize Application
-       ============================================ */
     async function init() {
         // Set footer year
         var yearEl = document.getElementById('current-year');
@@ -115,6 +112,11 @@
 
             // Build Navigation
             buildNavigation(sections.filter(function (s) { return s.showInNav; }));
+
+            // Initialize Contact Form (now that it's in the DOM)
+            if (window.initContactForm) {
+                window.initContactForm();
+            }
 
         } catch (error) {
             console.error('Error loading sections config:', error);
@@ -197,6 +199,12 @@
             imgEl.alt = about.name;
         }
 
+        // Resume link
+        var resumeEl = document.getElementById('hero-resume');
+        if (resumeEl && about.resume) {
+            resumeEl.href = about.resume;
+        }
+
         // Social links
         var socialEl = document.getElementById('hero-social');
         if (!socialEl) return;
@@ -234,7 +242,9 @@
 
         var details = [
             { label: 'Location', value: about.location },
+            { label: 'Phone', value: about.phone },
             { label: 'Email', value: about.email, type: 'email' },
+            { label: 'Website', value: about.portfolio_url, type: 'link' },
             { label: 'GitHub', value: about.github, type: 'link' },
             { label: 'LinkedIn', value: about.linkedin, type: 'link' }
         ];
@@ -344,8 +354,14 @@
             return;
         }
 
-        // Set count attribute for CSS grid logic
-        container.setAttribute('data-count', projects.length);
+        // Sort projects explicitly by date (Newest First)
+        // This ensures visual order (Left->Right, Top->Bottom) matches chronological order
+        projects.sort(function (a, b) {
+            return new Date(b.date) - new Date(a.date);
+        });
+
+        // Set count attribute for CSS grid logic - REMOVED for auto-centering grid
+        // container.setAttribute('data-count', projects.length);
 
         projects.forEach(function (project) {
             var card = document.createElement('article');
@@ -369,6 +385,25 @@
             title.className = 'project-card-title';
             title.textContent = project.title;
             body.appendChild(title);
+
+            // Date
+            if (project.date) {
+                var dateEl = document.createElement('p');
+                dateEl.style.fontSize = '0.85rem';
+                dateEl.style.color = 'var(--text-muted)';
+                dateEl.style.marginBottom = '0.5rem';
+                dateEl.style.display = 'flex';
+                dateEl.style.alignItems = 'center';
+                dateEl.style.gap = '0.35rem';
+
+                var icon = svgIcon(ICONS.calendar);
+                icon.style.width = '14px';
+                icon.style.height = '14px';
+
+                dateEl.appendChild(icon);
+                dateEl.appendChild(document.createTextNode(formatDateString(project.date)));
+                body.appendChild(dateEl);
+            }
 
             var desc = document.createElement('p');
             desc.className = 'project-card-desc';
