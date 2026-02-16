@@ -205,10 +205,21 @@
       "degree": "Bachelor of Science in Computing and Data Science",
       "institution": "Alexandria University",
       "location": "Alexandria, Egypt",
-      "start_date": "2021",
+      "start_date": "2023",
       "end_date": "2027",
-      "description": "Currently in third year. Relevant Coursework: Data Structures & Algorithms, Machine Learning, Database Systems, Distributed Processing.",
-      "gpa": null
+      "description": "Currently in third year.",
+      "relevant_coursework": [
+        "Data Structures & Algorithms",
+        "Machine Learning",
+        "Database Systems",
+        "Distributed Processing",
+        "Data Visualization",
+        "Data Analysis",
+        "Calculus",
+        "Linear Algebra",
+        "Discrete Mathematics"
+      ],
+      "gpa": "3.44"
     }
   ],
   "experience": [

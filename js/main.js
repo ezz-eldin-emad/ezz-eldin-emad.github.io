@@ -610,6 +610,28 @@
                 item.appendChild(desc);
             }
 
+            var coursework = edu.relevant_coursework || edu['Relevant Coursework'];
+            if (coursework && coursework.length > 0) {
+                var label = document.createElement('h4');
+                label.style.fontSize = '0.9rem';
+                label.style.fontWeight = '600';
+                label.style.color = 'var(--text-secondary)';
+                label.style.marginTop = '0.75rem';
+                label.style.marginBottom = '0.5rem';
+                label.textContent = 'Relevant Coursework';
+                item.appendChild(label);
+
+                var coursesWrap = document.createElement('div');
+                coursesWrap.className = 'timeline-tech';
+                coursework.forEach(function (course) {
+                    var badge = document.createElement('span');
+                    badge.className = 'tech-badge';
+                    badge.textContent = course;
+                    coursesWrap.appendChild(badge);
+                });
+                item.appendChild(coursesWrap);
+            }
+
             container.appendChild(item);
         });
     }
