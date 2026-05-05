@@ -4,15 +4,15 @@
   "about": {
     "_comment": "Personal information displayed in Hero and About sections",
     "name": "Ezz El-Din Emad",
-    "title": "Data Science Student | Aspiring Data Scientist",
-    "bio": "Data Science student at Alexandria University working on Machine Learning and real-world data projects, with hands-on experience in IoT and data analysis.",
+    "title": "Data Science Student | AI & Data-Driven Solutions",
+    "bio": "Student at Alexandria University in Computing & Data Science. Proficient in developing predictive models and building data pipelines end-to-end with Python, SQL, PyTorch, TensorFlow and Scikit-learn. Expertise in data visualization and BI tools like Power BI and Streamlit. Strong theoretical background in statistics, databases and algorithms oriented towards AI & data-driven solutions.",
     "location": "Alexandria, Egypt",
     "email": "ezz.eldin.emad@outlook.com",
     "phone": "+201208094900",
     "github": "https://github.com/ezz-eldin-emad",
     "linkedin": "https://linkedin.com/in/ezz-eldin-emad",
     "portfolio_url": "https://ezz-eldin-emad.github.io",
-    "resume": "assets/resume.pdf",
+    "resume": "assets/EZZ_ALDIN_EMAD_Resume.pdf",
     "profileImage": "assets/images/profile.jpg"
   },
   "skills": {
@@ -23,20 +23,24 @@
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
       },
       {
-        "name": "SQL",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        "name": "R",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
+      },
+      {
+        "name": "C",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
       },
       {
         "name": "Java",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
       },
       {
-        "name": "R",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
-      },
-      {
         "name": "JavaScript",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "SQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
       }
     ],
     "Data Science & AI": [
@@ -63,6 +67,14 @@
       {
         "name": "Power BI",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+      },
+      {
+        "name": "Plotly",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg"
+      },
+      {
+        "name": "Seaborn",
+        "icon": null
       }
     ],
     "Cloud & Tools": [
@@ -103,10 +115,6 @@
       {
         "name": "ESP32",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg"
-      },
-      {
-        "name": "C++",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
       },
       {
         "name": "Flutter",
@@ -207,7 +215,7 @@
       "location": "Alexandria, Egypt",
       "start_date": "2023",
       "end_date": "2027",
-      "description": "Currently in third year.",
+      "description": "Currently in third year of Bachelor's degree in Computing & Data Science.",
       "relevant_coursework": [
         "Data Structures & Algorithms",
         "Machine Learning",
@@ -225,16 +233,16 @@
   "experience": [
     {
       "_comment": "Work experience and training: title, company, location, start_date (YYYY-MM), end_date (null = present), description (array of bullet points), technologies",
-      "title": "IoT Software & Hardware Engineering - Field Training",
-      "company": "Alexandria University, Faculty of Computing and Data Science",
-      "location": "Alexandria, Egypt",
+      "title": "Field Training – IoT Systems Development",
+      "company": "Faculty of Medicine, Ain Shams University",
+      "location": "Egypt",
       "start_date": "2025-07",
       "end_date": "2025-08",
       "description": [
-        "Completed intensive 7-week program covering embedded systems, cloud connectivity, and IoT architecture",
-        "Led team capstone project developing IoT Smart Pet Care System with ESP32 and real-time cloud integration",
-        "Implemented MQTT protocol for hardware-cloud communication and designed Flutter mobile interface",
-        "Integrated multiple sensors (IR, water level) with servo motors for automated pet feeding control"
+        "Undertook intensive 7-week, project-based training on IoT system design & implementation",
+        "Worked with ESP32, sensors and embedded systems using PlatformIO and Wokwi",
+        "Utilized protocols like MQTT, I2C, SPI, and UART to communicate over IoT platforms with cloud services: HiveMQ and Supabase",
+        "Led a team capstone project of IoT smart system using mobile-based application and backend services"
       ],
       "technologies": [
         "ESP32",
