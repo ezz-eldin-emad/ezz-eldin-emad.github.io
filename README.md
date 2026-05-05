@@ -17,9 +17,9 @@
 
 ## 🚀 About Me
 
-I'm a **Computing & Data Science student** at Alexandria University. Proficient in developing **predictive models** and building **data pipelines end-to-end** with Python, SQL, PyTorch, TensorFlow and Scikit-learn. Expertise in **data visualization and BI tools** like Power BI and Streamlit.
+I'm a **Computing & Data Science student** at Alexandria University with hands-on experience building **predictive models** and **end-to-end data pipelines** using Python, SQL, TensorFlow, PyTorch, and Scikit-learn. Skilled in **data visualization** with Power BI and Streamlit, with project experience spanning **data classification, large-scale analysis, and IoT systems**.
 
-Strong theoretical background in **statistics, databases and algorithms** oriented towards **AI & data-driven solutions**. Always eager to learn new technologies, explore cutting-edge research, and contribute to impactful projects.
+Grounded in a strong foundation in **statistics, databases, and algorithms**. Always eager to learn new technologies, explore cutting-edge research, and contribute to impactful projects.
 
 **🌍 Location:** Alexandria, Egypt  
 **🎓 Education:** Bachelor's in Computing & Data Science (Sep 2023 - Present)  
@@ -149,14 +149,14 @@ Strong theoretical background in **statistics, databases and algorithms** orient
 
 ### 🔌 Field Training – IoT Systems Development
 
-**📍 Faculty of Medicine, Ain Shams University** | 🗓️ July 2025 - August 2025
+**📍 Alexandria University, Faculty of Computing and Data Science** | 🗓️ July 2025 - August 2025
 
-✅ Undertook intensive 7-week, project-based training on IoT system design & implementation  
-✅ Worked with ESP32, sensors and embedded systems using PlatformIO and Wokwi  
-✅ Utilized protocols like MQTT, I2C, SPI, and UART with cloud services: HiveMQ and Supabase  
-✅ Led a team capstone project of IoT smart system using mobile-based application and backend services
+✅ Completed an intensive 7-week field training program in IoT system design and implementation  
+✅ Worked hands-on with ESP32, sensors, and embedded systems via PlatformIO and Wokwi  
+✅ Applied communication protocols including MQTT, I2C, SPI, and UART, with cloud integration using HiveMQ and Supabase  
+✅ Led a team capstone project building a **Smart Pet Care System** — a real-time IoT solution using ESP32 (C), Flutter mobile app, and Flask backend to monitor food and water levels with instant alerts
 
-**Tech Stack:** `ESP32` `C` `MQTT` `PlatformIO` `Flutter` `Supabase`
+**Tech Stack:** `ESP32` `C` `MQTT` `PlatformIO` `Flutter` `Flask` `Supabase`
 
 ---
 

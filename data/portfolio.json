@@ -5,7 +5,7 @@
     "_comment": "Personal information displayed in Hero and About sections",
     "name": "Ezz El-Din Emad",
     "title": "Data Science Student | AI & Data-Driven Solutions",
-    "bio": "Student at Alexandria University in Computing & Data Science. Proficient in developing predictive models and building data pipelines end-to-end with Python, SQL, PyTorch, TensorFlow and Scikit-learn. Expertise in data visualization and BI tools like Power BI and Streamlit. Strong theoretical background in statistics, databases and algorithms oriented towards AI & data-driven solutions.",
+    "bio": "Computing & Data Science student at Alexandria University with hands-on experience building predictive models and end-to-end data pipelines using Python, SQL, TensorFlow, PyTorch, and Scikit-learn. Skilled in data visualization with Power BI and Streamlit, with project experience spanning data classification, large-scale analysis, and IoT systems — grounded in a strong foundation in statistics, databases, and algorithms.",
     "location": "Alexandria, Egypt",
     "email": "ezz.eldin.emad@outlook.com",
     "phone": "+201208094900",
@@ -234,22 +234,22 @@
     {
       "_comment": "Work experience and training: title, company, location, start_date (YYYY-MM), end_date (null = present), description (array of bullet points), technologies",
       "title": "Field Training – IoT Systems Development",
-      "company": "Faculty of Medicine, Ain Shams University",
+      "company": "Alexandria University, Faculty of Computing and Data Science",
       "location": "Egypt",
       "start_date": "2025-07",
       "end_date": "2025-08",
       "description": [
-        "Undertook intensive 7-week, project-based training on IoT system design & implementation",
-        "Worked with ESP32, sensors and embedded systems using PlatformIO and Wokwi",
-        "Utilized protocols like MQTT, I2C, SPI, and UART to communicate over IoT platforms with cloud services: HiveMQ and Supabase",
-        "Led a team capstone project of IoT smart system using mobile-based application and backend services"
+        "Completed an intensive 7-week field training program in IoT system design and implementation, working hands-on with ESP32, sensors, and embedded systems via PlatformIO and Wokwi",
+        "Applied communication protocols including MQTT, I2C, SPI, and UART, with cloud integration using HiveMQ and Supabase",
+        "Led a team capstone project building a Smart Pet Care System — a real-time IoT solution using ESP32 (C), Flutter mobile app, and Flask backend to monitor food and water levels with instant alerts"
       ],
       "technologies": [
         "ESP32",
-        "C++",
+        "C",
         "MQTT",
         "PlatformIO",
         "Flutter",
+        "Flask",
         "Supabase"
       ]
     }
