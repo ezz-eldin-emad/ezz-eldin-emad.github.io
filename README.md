@@ -2,7 +2,7 @@
   
 # 👋 Hi, I'm Ezz El-Din Emad
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9FFF&center=true&vCenter=true&width=600&lines=Data+Science+Student;Machine+Learning+Enthusiast;IoT+Developer;Turning+Data+Into+Insights" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9FFF&center=true&vCenter=true&width=600&lines=Data+Science+Student;AI+%26+Data-Driven+Solutions;Building+Predictive+Models;Turning+Data+Into+Insights" alt="Typing SVG" />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://ezz-eldin-emad.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ezz-eldin-emad)
@@ -17,12 +17,12 @@
 
 ## 🚀 About Me
 
-I'm a **third-year Computing & Data Science student** at Alexandria University, passionate about transforming data into actionable insights. With hands-on experience in **Machine Learning, Data Analysis, and IoT Development**, I love building intelligent solutions that solve real-world problems.
+I'm a **Computing & Data Science student** at Alexandria University. Proficient in developing **predictive models** and building **data pipelines end-to-end** with Python, SQL, PyTorch, TensorFlow and Scikit-learn. Expertise in **data visualization and BI tools** like Power BI and Streamlit.
 
-Currently focusing on **Machine Learning & Deep Learning, Data Visualization, IoT Systems, and Cloud Computing (AWS)**. I'm always eager to learn new technologies, explore cutting-edge research, and contribute to impactful projects.
+Strong theoretical background in **statistics, databases and algorithms** oriented towards **AI & data-driven solutions**. Always eager to learn new technologies, explore cutting-edge research, and contribute to impactful projects.
 
 **🌍 Location:** Alexandria, Egypt  
-**🎓 Education:** Bachelor's in Computing & Data Science (Expected 2027)  
+**🎓 Education:** Bachelor's in Computing & Data Science (Sep 2023 - Present)  
 **💬 Languages:** Arabic (Native), English (Intermediate)  
 **🔭 Interests:** MLOps, Big Data, Computer Vision, Problem Solving
 
@@ -33,11 +33,11 @@ Currently focusing on **Machine Learning & Deep Learning, Data Visualization, Io
 ### 💻 Languages & Databases
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### 🤖 Data Science & AI
 
@@ -47,12 +47,8 @@ Currently focusing on **Machine Learning & Deep Learning, Data Visualization, Io
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-### 📊 Data Visualization
-
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### ☁️ Cloud & Tools
 
@@ -133,7 +129,7 @@ Currently focusing on **Machine Learning & Deep Learning, Data Visualization, Io
 ## 🎓 Education
 
 **🏛️ Alexandria University**  
-📚 Bachelor's in Computing & Data Science | 🗓️ 2021 - 2027 (3rd Year)
+📚 Bachelor's in Computing & Data Science | 🗓️ Sep 2023 - Present
 
 **Relevant Coursework:**
 
@@ -141,21 +137,26 @@ Currently focusing on **Machine Learning & Deep Learning, Data Visualization, Io
 - Machine Learning
 - Database Systems
 - Distributed Processing
+- Data Visualization
+- Data Analysis
+- Calculus
+- Linear Algebra
+- Discrete Mathematics
 
 ---
 
 ## 💼 Experience & Training
 
-### 🔌 IoT Software & Hardware Engineering - Field Training
+### 🔌 Field Training – IoT Systems Development
 
-**📍 Alexandria University** | 🗓️ July 2025 - August 2025
+**📍 Faculty of Medicine, Ain Shams University** | 🗓️ July 2025 - August 2025
 
-✅ Completed intensive 7-week program on embedded systems & IoT architecture  
-✅ Led team capstone project with ESP32 and cloud integration  
-✅ Implemented MQTT protocol for real-time hardware-cloud communication  
-✅ Designed Flutter mobile interface for remote monitoring & control
+✅ Undertook intensive 7-week, project-based training on IoT system design & implementation  
+✅ Worked with ESP32, sensors and embedded systems using PlatformIO and Wokwi  
+✅ Utilized protocols like MQTT, I2C, SPI, and UART with cloud services: HiveMQ and Supabase  
+✅ Led a team capstone project of IoT smart system using mobile-based application and backend services
 
-**Tech Stack:** `ESP32` `C++` `MQTT` `PlatformIO` `Flutter` `Supabase`
+**Tech Stack:** `ESP32` `C` `MQTT` `PlatformIO` `Flutter` `Supabase`
 
 ---
 
@@ -205,6 +206,6 @@ Currently focusing on **Machine Learning & Deep Learning, Data Visualization, Io
 
 **Made with ❤️ and lots of ☕**
 
-*Last Updated: February 2026*
+*Last Updated: May 2026*
 
 </div>
