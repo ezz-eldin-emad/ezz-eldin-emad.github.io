@@ -17,9 +17,9 @@
 
 ## 🚀 About Me
 
-I'm a **Computing & Data Science student** at Alexandria University with hands-on experience building **predictive models** and **end-to-end data pipelines** using Python, SQL, TensorFlow, PyTorch, and Scikit-learn. Skilled in **data visualization** with Power BI and Streamlit, with project experience spanning **data classification, large-scale analysis, and IoT systems**.
+I'm a **Computing & Data Science student** at Alexandria University who builds machine learning systems **end to end** — from data preparation and model comparison to evaluation, quantization and a deployed interface. My recent work spans **computer vision** on GTSRB, a **bilingual agentic RAG assistant** for medical information, and **job-market analytics**.
 
-Grounded in a strong foundation in **statistics, databases, and algorithms**. Always eager to learn new technologies, explore cutting-edge research, and contribute to impactful projects.
+I work in Python, SQL, TensorFlow, PyTorch and scikit-learn, and ship through Streamlit, FastAPI and TensorFlow Lite. Grounded in a strong foundation in **statistics, databases, and algorithms**, and most interested in problems where a model has to survive contact with real users.
 
 **🌍 Location:** Alexandria, Egypt  
 **🎓 Education:** Bachelor's in Computing & Data Science (Sep 2023 - Present)  
@@ -77,6 +77,30 @@ Grounded in a strong foundation in **statistics, databases, and algorithms**. Al
 
 <div align="center">
 
+### 🚦 [Traffic Sign Recognition — 43 Classes](https://github.com/ezz-eldin-emad/traffic-sign-recognition)
+
+[![Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=flat-square)](https://intelligent-traffic-sign-recognition-system.streamlit.app)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/ezz-eldin-emad/traffic-sign-recognition)
+[![TFLite](https://img.shields.io/badge/TensorFlow_Lite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/ezz-eldin-emad/traffic-sign-recognition)
+
+> 🎯 Team capstone — **96.97% Top-1** across 43 GTSRB classes  
+> 📉 Int8 TFLite deployment: **254 KB**, 1.9 ms/image (519 images/s)  
+> 🔍 My scope: EDA, classical baselines, **MobileNetV3 transfer learning (90.8%)**, evaluation suite, Grad-CAM, Streamlit app
+
+---
+
+### 🩺 [Medical Agentic RAG Assistant](https://github.com/ezz-eldin-emad/medical-agentic-rag)
+
+[![Demo](https://img.shields.io/badge/🚀_Live_Demo-Vercel-000000?style=flat-square)](https://medical-agentic-rag-sandy.vercel.app)
+[![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)](https://github.com/ezz-eldin-emad/medical-agentic-rag)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/ezz-eldin-emad/medical-agentic-rag)
+
+> 🤖 Bilingual (Arabic/English) **agentic RAG** assistant on Telegram  
+> 🔎 LLM query routing + Qdrant retrieval with multilingual E5 embeddings  
+> 🛡️ Relevance gating, clarification loops, input/output guardrails, clinic booking state
+
+---
+
 ### 📈 [HR Employee Attrition Analysis Dashboard](https://github.com/DataMentes/hr-employee-attrition-analysis)
 
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://github.com/DataMentes/hr-employee-attrition-analysis)
@@ -91,7 +115,7 @@ Grounded in a strong foundation in **statistics, databases, and algorithms**. Al
 ### 👔 [Fashion MNIST Classifier](https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense)
 
 [![Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=flat-square)](https://fashion-mnist-classifier-dense.streamlit.app/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense)
 
 > 🤖 Built ML pipeline achieving **89.37% test accuracy**  
@@ -100,11 +124,11 @@ Grounded in a strong foundation in **statistics, databases, and algorithms**. Al
 
 ---
 
-### 💼 [Job Market Insights Analysis](https://github.com/DataMentes/Job-Market-Insights-analysis)
+### 💼 [Job Market Insights Analysis](https://github.com/ezz-eldin-emad/Job-Market-Insights-analysis)
 
 [![Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=flat-square)](https://job-market-insights-analysis.streamlit.app/)
-[![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://github.com/DataMentes/Job-Market-Insights-analysis)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/DataMentes/Job-Market-Insights-analysis)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://github.com/ezz-eldin-emad/Job-Market-Insights-analysis)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/ezz-eldin-emad/Job-Market-Insights-analysis)
 
 > 📊 Processed **8,000+ job listings** with automated SQL pipeline  
 > 📈 Uncovered seasonal hiring trends in Egypt & Saudi Arabia  
@@ -147,6 +171,18 @@ Grounded in a strong foundation in **statistics, databases, and algorithms**. Al
 
 ## 💼 Experience & Training
 
+### 🤖 Machine Learning & AI Training Program – TechTrek
+
+**📍 Alexandria University** | 🗓️ August 2026 - September 2026
+
+✅ Completed intensive training in machine learning, deep learning, NLP, SQL, cloud computing, deployment and MLOps  
+✅ Covered CNNs, LSTMs and Transformers, with hands-on evaluation, cross-validation and hyperparameter tuning  
+✅ Team capstone: end-to-end traffic-sign recognition (43 classes, 96.97% Top-1) with TensorFlow Lite deployment
+
+**Tech Stack:** `Python` `TensorFlow` `PyTorch` `scikit-learn` `NLP` `MLOps` `Streamlit`
+
+---
+
 ### 🔌 Field Training – IoT Systems Development
 
 **📍 Alexandria University, Faculty of Computing and Data Science** | 🗓️ July 2025 - August 2025
@@ -173,11 +209,10 @@ Grounded in a strong foundation in **statistics, databases, and algorithms**. Al
 
 ## 💡 What I'm Currently Working On
 
-- 🔭 Building Machine Learning models for real-world applications
-- 🌱 Learning MLOps and deployment strategies
-- 📊 Exploring Advanced Data Visualization techniques
-- 🤝 Contributing to Open Source projects
-- 📝 Writing technical blogs about my learning journey
+- 🔭 Building end-to-end ML systems — computer vision and retrieval-augmented LLM applications
+- 🌱 Going deeper into MLOps, model quantization and evaluation under distribution shift
+- 🧪 Running experiments on Kaggle and reproducing papers
+- 🤝 Open to machine learning engineering internships
 
 ---
 

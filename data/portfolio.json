@@ -4,8 +4,8 @@
   "about": {
     "_comment": "Personal information displayed in Hero and About sections",
     "name": "Ezz El-Din Emad",
-    "title": "Data Science Student | AI & Data-Driven Solutions",
-    "bio": "Computing & Data Science student at Alexandria University with hands-on experience building predictive models and end-to-end data pipelines using Python, SQL, TensorFlow, PyTorch, and Scikit-learn. Skilled in data visualization with Power BI and Streamlit, with project experience spanning data classification, large-scale analysis, and IoT systems — grounded in a strong foundation in statistics, databases, and algorithms.",
+    "title": "Machine Learning Engineer in Training | Computer Vision & LLM Systems",
+    "bio": "Computing & Data Science student at Alexandria University who builds machine learning systems end to end — from data preparation and model comparison to evaluation, quantization and a deployed interface. Recent work spans computer vision on GTSRB, a bilingual agentic RAG assistant for medical information, and job-market analytics. Comfortable across Python, SQL, TensorFlow, PyTorch and scikit-learn, with deployment through Streamlit, FastAPI and TensorFlow Lite.",
     "location": "Alexandria, Egypt",
     "email": "ezz.eldin.emad@outlook.com",
     "phone": "+201208094900",
@@ -103,12 +103,20 @@
         "icon": "https://streamlit.io/images/brand/streamlit-mark-color.svg"
       },
       {
+        "name": "FastAPI",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+      },
+      {
         "name": "Jupyter",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
       },
       {
         "name": "VS Code",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+      },
+      {
+        "name": "TensorFlow Lite",
+        "icon": null
       }
     ],
     "IoT & Embedded Systems": [
@@ -146,6 +154,41 @@
   },
   "projects": [
     {
+      "title": "Traffic Sign Recognition — 43 Classes",
+      "description": "Team capstone building an end-to-end GTSRB classifier: benchmarked classical ML against deep learning, then quantized the best model to TensorFlow Lite — the Int8 build is 254 KB and runs at 1.9 ms per image (519 images/s) at 97.08% Top-1. My scope: EDA and data preparation, classical baselines (HOG+SVM 63.2%), transfer learning with MobileNetV3-Small (90.8% Top-1), the evaluation suite (Top-5, robustness, latency, throughput), Grad-CAM explanations and the Streamlit app.",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "scikit-learn",
+        "TensorFlow Lite",
+        "Grad-CAM",
+        "Streamlit"
+      ],
+      "github_url": "https://github.com/ezz-eldin-emad/traffic-sign-recognition",
+      "demo_url": "https://intelligent-traffic-sign-recognition-system.streamlit.app",
+      "image": null,
+      "date": "2026-09"
+    },
+    {
+      "title": "Medical Agentic RAG Assistant",
+      "description": "Bilingual (Arabic/English) Telegram assistant answering medical questions with evidence-grounded retrieval: LLM query routing, Qdrant vector search with multilingual E5 embeddings, relevance gating, clarification loops and input/output guardrails, plus clinic booking workflows with persistent state. Deployed as FastAPI webhooks on Vercel.",
+      "technologies": [
+        "Python",
+        "Qdrant",
+        "FastAPI",
+        "LLM",
+        "LiteLLM",
+        "Groq",
+        "Hugging Face",
+        "Vercel"
+      ],
+      "github_url": "https://github.com/ezz-eldin-emad/medical-agentic-rag",
+      "demo_url": "https://medical-agentic-rag-sandy.vercel.app",
+      "image": null,
+      "date": "2026-09"
+    },
+    {
       "_comment": "Each project: title, description, technologies array, github_url, demo_url (optional), image (optional path to assets/images/)",
       "title": "HR Employee Attrition Analysis Dashboard",
       "description": "Analyzed 1,470 employees to identify high-risk groups and retention factors. Discovered that Sales Representatives had 39.8% attrition and overtime workers 30.5%. Used DAX correlation analysis to uncover 5 key retention factors contributing to 16.12% overall attrition rate.",
@@ -161,13 +204,13 @@
     },
     {
       "title": "Fashion MNIST Classifier",
-      "description": "Built a deep learning ML pipeline achieving 89.37% test accuracy using TensorFlow. Implemented hyperparameter tuning with Optuna (3 layers, 86 neurons) and deployed a real-time classification dashboard using Streamlit.",
+      "description": "PyTorch classifier for 10-class clothing images: compared a baseline against a wide-and-deep network, then ran automated hyperparameter search with Optuna (3 hidden layers, 86 units, Adam) to reach 89.37% test accuracy. Served through an interactive Streamlit dashboard with live predictions and metrics.",
       "technologies": [
         "Python",
-        "TensorFlow",
-        "Streamlit",
+        "PyTorch",
         "Optuna",
-        "Jupyter"
+        "Streamlit",
+        "NumPy"
       ],
       "github_url": "https://github.com/ezz-eldin-emad/fashion-mnist-classifier-dense",
       "demo_url": "https://fashion-mnist-classifier-dense.streamlit.app",
@@ -193,7 +236,7 @@
     },
     {
       "title": "Job Market Analysis",
-      "description": "Processed over 8,000 job listings using automated SQL pipeline to uncover seasonal hiring trends and high-growth sectors in Egypt and Saudi Arabia. Created 12 interactive visualizations with Plotly and Seaborn to present market dynamics and employer insights.",
+      "description": "Scraped and processed 8,000+ job listings from Bayt.com across Egypt and Saudi Arabia through an automated SQL pipeline, uncovering seasonal hiring trends and high-growth sectors. Built 12 interactive visualizations per market with Plotly and Seaborn, plus a cross-market comparison.",
       "technologies": [
         "Python",
         "SQL Server",
@@ -201,7 +244,7 @@
         "Plotly",
         "Seaborn"
       ],
-      "github_url": "https://github.com/DataMentes/Job-Market-Insights-analysis",
+      "github_url": "https://github.com/ezz-eldin-emad/Job-Market-Insights-analysis",
       "demo_url": "https://job-market-insights-analysis.streamlit.app",
       "image": "assets/images/project-jobs.jpg",
       "date": "2025-05"
@@ -215,7 +258,7 @@
       "location": "Alexandria, Egypt",
       "start_date": "2023",
       "end_date": "2027",
-      "description": "Currently in third year of Bachelor's degree in Computing & Data Science.",
+      "description": "Currently in the final year of the B.Sc. programme (expected graduation 2027).",
       "relevant_coursework": [
         "Data Structures & Algorithms",
         "Machine Learning",
@@ -231,6 +274,26 @@
     }
   ],
   "experience": [
+    {
+      "title": "Machine Learning & AI Training Program — TechTrek",
+      "company": "Alexandria University",
+      "location": "Egypt",
+      "start_date": "2026-08",
+      "end_date": "2026-09",
+      "description": [
+        "Completed intensive training in machine learning, deep learning, NLP, SQL, cloud computing, deployment and MLOps, covering CNNs, LSTMs and Transformers",
+        "Applied model evaluation, cross-validation and hyperparameter tuning across practical projects, culminating in a team capstone on traffic-sign recognition (43 classes, 96.97% Top-1)"
+      ],
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "MLOps",
+        "Streamlit"
+      ]
+    },
     {
       "_comment": "Work experience and training: title, company, location, start_date (YYYY-MM), end_date (null = present), description (array of bullet points), technologies",
       "title": "Field Training – IoT Systems Development",
