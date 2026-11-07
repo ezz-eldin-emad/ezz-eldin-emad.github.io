@@ -3,7 +3,7 @@
   "_instructions": "Edit this file to update your portfolio content. No code changes needed!",
   "about": {
     "_comment": "Personal information displayed in Hero and About sections",
-    "name": "Ezz El-Din Emad",
+    "name": "Ezz Eldin Emad",
     "title": "Machine Learning Engineer in Training | Computer Vision & LLM Systems",
     "bio": "Computing & Data Science student at Alexandria University who builds machine learning systems end to end — from data preparation and model comparison to evaluation, quantization and a deployed interface. Recent work spans computer vision on GTSRB, a bilingual agentic RAG assistant for medical information, and job-market analytics. Comfortable across Python, SQL, TensorFlow, PyTorch and scikit-learn, with deployment through Streamlit, FastAPI and TensorFlow Lite.",
     "location": "Alexandria, Egypt",
@@ -12,7 +12,7 @@
     "github": "https://github.com/ezz-eldin-emad",
     "linkedin": "https://linkedin.com/in/ezz-eldin-emad",
     "portfolio_url": "https://ezz-eldin-emad.github.io",
-    "resume": "assets/EZZ_ALDIN_EMAD_Resume.pdf",
+    "resume": "assets/EZZ_ELDIN_EMAD_Resume.pdf",
     "profileImage": "assets/images/profile.jpg"
   },
   "skills": {
@@ -236,7 +236,7 @@
     },
     {
       "title": "Job Market Analysis",
-      "description": "Scraped and processed 8,000+ job listings from Bayt.com across Egypt and Saudi Arabia through an automated SQL pipeline, uncovering seasonal hiring trends and high-growth sectors. Built 12 interactive visualizations per market with Plotly and Seaborn, plus a cross-market comparison.",
+      "description": "Scraped and processed 9,500+ job listings from Bayt.com across Egypt and Saudi Arabia through an automated SQL pipeline, uncovering seasonal hiring trends and high-growth sectors. Built 12 interactive visualizations per market with Plotly and Seaborn, plus a cross-market comparison.",
       "technologies": [
         "Python",
         "SQL Server",
@@ -270,7 +270,7 @@
         "Linear Algebra",
         "Discrete Mathematics"
       ],
-      "gpa": "3.44"
+      "gpa": "3.49"
     }
   ],
   "experience": [

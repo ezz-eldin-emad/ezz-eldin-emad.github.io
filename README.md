@@ -1,6 +1,6 @@
 <div align="center">
   
-# 👋 Hi, I'm Ezz El-Din Emad
+# 👋 Hi, I'm Ezz Eldin Emad
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9FFF&center=true&vCenter=true&width=600&lines=Data+Science+Student;AI+%26+Data-Driven+Solutions;Building+Predictive+Models;Turning+Data+Into+Insights" alt="Typing SVG" />
 
@@ -130,7 +130,7 @@ I work in Python, SQL, TensorFlow, PyTorch and scikit-learn, and ship through St
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://github.com/ezz-eldin-emad/Job-Market-Insights-analysis)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/ezz-eldin-emad/Job-Market-Insights-analysis)
 
-> 📊 Processed **8,000+ job listings** with automated SQL pipeline  
+> 📊 Processed **9,500+ job listings** with automated SQL pipeline  
 > 📈 Uncovered seasonal hiring trends in Egypt & Saudi Arabia  
 > 🎨 Created 12 interactive visualizations with Plotly & Seaborn
 
