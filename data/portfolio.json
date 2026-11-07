@@ -4,7 +4,7 @@
   "about": {
     "_comment": "Personal information displayed in Hero and About sections",
     "name": "Ezz Eldin Emad",
-    "title": "Machine Learning Engineer in Training | Computer Vision & LLM Systems",
+    "title": "Machine Learning Engineer",
     "bio": "Computing & Data Science student at Alexandria University who builds machine learning systems end to end — from data preparation and model comparison to evaluation, quantization and a deployed interface. Recent work spans computer vision on GTSRB, a bilingual agentic RAG assistant for medical information, and job-market analytics. Comfortable across Python, SQL, TensorFlow, PyTorch and scikit-learn, with deployment through Streamlit, FastAPI and TensorFlow Lite.",
     "location": "Alexandria, Egypt",
     "email": "ezz.eldin.emad@outlook.com",
